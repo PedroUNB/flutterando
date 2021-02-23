@@ -11,7 +11,7 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(primaryColor: Colors.red),
-      home: HomePage(title),
+      home: HomePage(),
     );
   }
 }
